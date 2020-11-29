@@ -1,1 +1,1 @@
-# ai-playground
+# machine-learning-playground
