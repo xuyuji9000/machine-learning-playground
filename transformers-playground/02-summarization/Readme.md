@@ -22,11 +22,3 @@ This folder contains an example about applying `transformers` library for text s
     source ./venv/bin/activate
     jupyter notebook
     ```
-
-- Run the sentiment analysis example
-
-    ``` shell
-    
-
-    python3 ./pip1.py
-    ```
