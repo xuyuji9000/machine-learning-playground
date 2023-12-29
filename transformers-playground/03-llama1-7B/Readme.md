@@ -1,6 +1,6 @@
 Refer to [machine-learning-playground/issues/6](https://github.com/xuyuji9000/machine-learning-playground/issues/6)
 
-The effort to create a llama 1 "hello world" example has been dropped.
+The effort to create a llama 1 "hello world" example has been **DROPPED**.
 
 # Introduction
 
