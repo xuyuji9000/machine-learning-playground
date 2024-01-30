@@ -1,0 +1,1 @@
+This folder contains an example about search with duckduckgo with LangChain framework.
