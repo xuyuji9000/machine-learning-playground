@@ -3,4 +3,6 @@ This folder contains ollama learning examples.
 
 # Learnings
 
-- [01-query-llama-3-with-openai-API-with-python](./01-query-llama-3-with-openai-API-with-python/Readme.md)
+[01-query-llama-3-with-openai-API-with-python](./01-query-llama-3-with-openai-API-with-python/Readme.md)
+
+[02-query-llama-3-with-openai-API-with-Javascript](./02-query-llama-3-with-openai-API-with-Javascript/Readme.md)
