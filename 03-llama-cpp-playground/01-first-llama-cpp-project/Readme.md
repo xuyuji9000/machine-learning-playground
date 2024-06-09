@@ -17,6 +17,6 @@ So, using **zephyr-7b-beta.Q4_K_M.gguf** model for the following experiment.
     huggingface-cli download            \
     --resume-download                   \
     --token ${HUGGINGFACE_TOKEN}        \
-    --local-dir ./                      \
+    --local-dir ./models/               \
     "${REPO_ID}" "${FILENAME}"
     ```
