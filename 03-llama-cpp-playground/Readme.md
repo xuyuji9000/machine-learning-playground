@@ -13,3 +13,8 @@
     pip3 install -r ./requirements.txt
     ```
 
+2. Import the `llama_cpp_python` library
+
+    ``` python
+    from llama_cpp import Llama
+    ```
