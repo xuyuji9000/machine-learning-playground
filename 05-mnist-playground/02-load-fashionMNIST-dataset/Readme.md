@@ -17,6 +17,16 @@
     git submodule add https://github.com/zalandoresearch/fashion-mnist
     ```
 
+3. Open jupyterlab server with virtual environment dependency
+
+    ``` shell
+    source venv/bin/activate
+
+    jupyter-lab             \
+    --no-browser
+    ```
+
+
 <!---
 
 2. Install dependencies
@@ -24,13 +34,4 @@
     ``` shell
     pip3 install -r requirements.txt
     ```
-
-3. Open jupyterlab server with virtual environment dependency
-
-    ``` shell
-    source venv/bin/activate
-
-    jupyter-lab
-    ```
-
 --->
