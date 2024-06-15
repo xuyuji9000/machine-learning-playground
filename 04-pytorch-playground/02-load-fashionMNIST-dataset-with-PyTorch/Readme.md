@@ -1,5 +1,7 @@
 This folder containing the learning example about loading [Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist) dataset with PyTorch.
 
+And PyTorch contains [FashionMNIST](https://pytorch.org/vision/stable/generated/torchvision.datasets.FashionMNIST.html#torchvision.datasets.FashionMNIST) dataset's function reference as well.
+
 # Commands
 
 1. Prepare virtual environment
@@ -17,8 +19,11 @@ This folder containing the learning example about loading [Fashion-MNIST](https:
     pip3 install -r requirements.txt
     ```
 
-3. Run the getting started script
+3. Open jupyterlab server with virtual environment dependency
 
     ``` shell
-    python3 main.py
+    source venv/bin/activate
+
+    jupyter-lab
     ```
+
