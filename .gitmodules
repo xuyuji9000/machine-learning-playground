@@ -1,0 +1,3 @@
+[submodule "05-mnist-playground/02-load-fashionMNIST-dataset/fashion-mnist"]
+	path = 05-mnist-playground/02-load-fashionMNIST-dataset/fashion-mnist
+	url = https://github.com/zalandoresearch/fashion-mnist
