@@ -1,3 +1,4 @@
+This folder documents an example about using [zalandoresearch/fashion-mnist](https://github.com/zalandoresearch/fashion-mnist) 's own util `mnist_reader` to load fashion-MNIST dataset.
 
 # Commands
 
@@ -11,13 +12,19 @@
     source venv/bin/activate
     ```
 
-2. Get Fashion-MNIST dataset
+3. Install dependencies
+
+    ``` shell
+    pip3 install -r requirements.txt
+    ```
+
+4. Get Fashion-MNIST dataset
 
     ``` shell
     git submodule add https://github.com/zalandoresearch/fashion-mnist
     ```
 
-3. Open jupyterlab server with virtual environment dependency
+5. Open jupyterlab server with virtual environment dependency
 
     ``` shell
     source venv/bin/activate
@@ -25,13 +32,3 @@
     jupyter-lab             \
     --no-browser
     ```
-
-
-<!---
-
-2. Install dependencies
-
-    ``` shell
-    pip3 install -r requirements.txt
-    ```
---->
