@@ -35,3 +35,12 @@ This folder contains an example using t-sne dimensionality reduction algorithm t
     jupyter-lab             \
     --no-browser
     ```
+
+6. Tracking process resource consumption
+
+    ``` shell
+    PID=""
+    ps                  \
+    --pid ${PID}        \
+    -o pid,pcpu,pmem
+    ```
