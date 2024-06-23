@@ -22,6 +22,9 @@ This folder contains an example using t-sne dimensionality reduction algorithm t
 
     ``` shell
     git submodule add https://github.com/zalandoresearch/fashion-mnist
+
+    # Update submodules
+    git submodule update --init --recursive
     ```
 
 5. Open jupyterlab server with virtual environment dependency
