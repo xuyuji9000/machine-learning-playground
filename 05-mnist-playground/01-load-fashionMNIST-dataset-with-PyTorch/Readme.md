@@ -24,6 +24,7 @@ And PyTorch contains [FashionMNIST](https://pytorch.org/vision/stable/generated/
     ``` shell
     source venv/bin/activate
 
-    jupyter-lab
+    jupyter-lab             \
+    --no-browser
     ```
 
