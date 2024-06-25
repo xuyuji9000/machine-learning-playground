@@ -1,0 +1,5 @@
+torch==2.3.0
+torchvision==0.18.0
+jupyterlab==4.2.2
+tensorflow==2.16.1
+keras==3.3.3
