@@ -1,4 +1,4 @@
-This folder contains an example of using mnist library loading fashion-mnist dataset.
+This folder contains an example of using [mnist library](https://github.com/datapythonista/mnist) to load [fashion-mnist dataset](https://github.com/zalandoresearch/fashion-mnist?tab=readme-ov-file).
 
 
 # Commands
@@ -19,13 +19,7 @@ This folder contains an example of using mnist library loading fashion-mnist dat
     pip3 install -r requirements.txt
     ```
 
-4. Get Fashion-MNIST dataset
-
-    ``` shell
-    git submodule add https://github.com/zalandoresearch/fashion-mnist
-    ```
-
-5. Open jupyterlab server with virtual environment dependency
+4. Open jupyterlab server with virtual environment dependency
 
     ``` shell
     source venv/bin/activate
