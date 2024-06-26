@@ -3,3 +3,4 @@ mnist==0.2.2
 pandas==2.2.2
 scikit-learn==1.5.0
 matplotlib==3.9.0
+PyQt6==6.7.0
