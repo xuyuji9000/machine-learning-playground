@@ -5,6 +5,15 @@ It seems the **Q4_K_M** is the suggested quantization method.
 So, using **zephyr-7b-beta.Q4_K_M.gguf** model for the following experiment.
 
 # Commands
+1. Prepare Python virtual environment and dependency
+
+    ``` shell
+    virtualenv -p python3 venv
+    source venv/bin/activate
+
+    pip3 install                        \
+    --requirement ./requirements.txt
+    ```
 
 1. Download model from HuggingFace
 
