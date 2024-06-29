@@ -17,8 +17,11 @@ This folder documents **PyTorch** learning examples.
     pip3 install -r requirements.txt
     ```
 
-3. Run the getting started script
+3. Start JupyterLab
 
     ``` shell
-    python3 main.py
+    source venv/bin/activate
+
+    jupyter-lab             \
+    --no-browser
     ```
