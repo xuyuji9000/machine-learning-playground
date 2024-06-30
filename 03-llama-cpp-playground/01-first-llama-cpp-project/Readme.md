@@ -15,7 +15,7 @@ So, using **zephyr-7b-beta.Q4_K_M.gguf** model for the following experiment.
     --requirement ./requirements.txt
     ```
 
-1. Download model from HuggingFace
+2. Download model from HuggingFace
 
     ``` shell
     HUGGINGFACE_TOKEN=""
@@ -28,4 +28,12 @@ So, using **zephyr-7b-beta.Q4_K_M.gguf** model for the following experiment.
     --token ${HUGGINGFACE_TOKEN}        \
     --local-dir ./models/               \
     "${REPO_ID}" "${FILENAME}"
+    ```
+
+3. Execute the model
+
+    ``` shell
+    source venv/bin/activate
+
+    python3 ./main.py
     ```
