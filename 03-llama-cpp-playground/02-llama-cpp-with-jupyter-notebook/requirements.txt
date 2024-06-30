@@ -1,0 +1,2 @@
+jupyterlab==4.2.3
+llama_cpp_python==0.2.79
