@@ -33,3 +33,13 @@
     --local-dir ./models/               \
     "${REPO_ID}" "${FILENAME}"
     ```
+
+4. Running with built-in server
+
+    ``` shell
+    pip install 'llama-cpp-python[server]'
+
+    python3 -m llama_cpp.server --model models/llama-model.gguf
+
+    # check localhost:8000/docs
+    ```
