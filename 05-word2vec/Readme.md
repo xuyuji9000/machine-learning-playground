@@ -1,0 +1,1 @@
+This folder documents a word2vec example.
