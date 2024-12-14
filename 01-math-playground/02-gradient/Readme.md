@@ -4,6 +4,8 @@ The following latex snippet output are used in the [draw.io diagram](./gradient.
 
 Documenting the latex here for reference.
 
+And the gradient example used here is from [this video](https://www.youtube.com/watch?v=tIpKfDc295M).
+
 - function 
 
 $$
@@ -22,3 +24,9 @@ $$
 \frac{\partial f}{\partial y} =  x^2cos(y)
 $$
 
+
+- gradient vector
+
+$$
+\nabla f(x, y) = \left( \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y} \right) = \left( 2xsin(y), x^2cos(y) \right)
+$$
