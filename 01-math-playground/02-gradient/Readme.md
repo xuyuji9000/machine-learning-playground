@@ -12,13 +12,13 @@ $$
 f(x,y) = x^2sin(y)
 $$
 
-- derivative on x
+- partial derivative on x
 
 $$
 \frac{\partial f}{\partial x} = 2xsin(y)
 $$
 
-- derivative on y
+- partial derivative on y
 
 $$
 \frac{\partial f}{\partial y} =  x^2cos(y)
