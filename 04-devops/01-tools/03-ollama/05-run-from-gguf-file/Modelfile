@@ -1,0 +1,1 @@
+FROM ./models/microsoft/Phi-3.5-mini-instruct-q8_0.gguf
