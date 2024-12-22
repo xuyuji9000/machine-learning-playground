@@ -18,9 +18,9 @@ This folder documents the learning examples of HuggingFace platform.
     # Refer to the .token file for the token
     HUGGINGFACE_TOKEN=`cat .token`
 
-    huggingface-cli download            \
-    --resume-download                   \
-    --token ${HUGGINGFACE_TOKEN}        \
-    --local-dir ./                      \
-    microsoft/Phi-3-mini-4k-instruct  
+    huggingface-cli download                                \
+    --resume-download                                       \
+    --token ${HUGGINGFACE_TOKEN}                            \
+    --local-dir ./models/microsoft/Phi-3.5-mini-instruct    \
+    microsoft/Phi-3.5-mini-instruct
     ```
