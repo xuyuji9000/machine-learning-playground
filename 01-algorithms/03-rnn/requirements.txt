@@ -13,12 +13,15 @@ certifi==2024.12.14
 cffi==1.17.1
 charset-normalizer==3.4.1
 comm==0.2.2
+contourpy==1.3.1
+cycler==0.12.1
 debugpy==1.8.11
 decorator==5.1.1
 defusedxml==0.7.1
 executing==2.1.0
 fastjsonschema==2.21.1
 filelock==3.16.1
+fonttools==4.55.3
 fqdn==1.5.1
 fsspec==2024.12.0
 h11==0.14.0
@@ -43,7 +46,9 @@ jupyter_server_terminals==0.5.3
 jupyterlab==4.3.4
 jupyterlab_pygments==0.3.0
 jupyterlab_server==2.27.3
+kiwisolver==1.4.8
 MarkupSafe==3.0.2
+matplotlib==3.10.0
 matplotlib-inline==0.1.7
 mistune==3.1.0
 mpmath==1.3.0
@@ -53,11 +58,13 @@ nbformat==5.10.4
 nest-asyncio==1.6.0
 networkx==3.4.2
 notebook_shim==0.2.4
+numpy==2.2.1
 overrides==7.7.0
 packaging==24.2
 pandocfilters==1.5.1
 parso==0.8.4
 pexpect==4.9.0
+pillow==11.0.0
 platformdirs==4.3.6
 prometheus_client==0.21.1
 prompt_toolkit==3.0.48
@@ -66,6 +73,7 @@ ptyprocess==0.7.0
 pure_eval==0.2.3
 pycparser==2.22
 Pygments==2.18.0
+pyparsing==3.2.1
 python-dateutil==2.9.0.post0
 python-json-logger==3.2.1
 PyYAML==6.0.2
