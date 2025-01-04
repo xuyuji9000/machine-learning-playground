@@ -1,0 +1,62 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.3 Chrome/130.0.6723.137 Electron/33.2.1 Safari/537.36" version="26.0.3">
+  <diagram name="Page-1" id="YsFs-EZWyFNYsZ8jhS4R">
+    <mxGraphModel dx="1114" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2qPy1PuLci0YALtGw1uu-7" value="output" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="h1zwtz1YElECyZVIN8If-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h1zwtz1YElECyZVIN8If-1" value="hidden_state" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="365" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2qPy1PuLci0YALtGw1uu-2" value="input" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="h1zwtz1YElECyZVIN8If-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="290" as="sourcePoint" />
+            <mxPoint x="365" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2qPy1PuLci0YALtGw1uu-6" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h1zwtz1YElECyZVIN8If-1" target="h1zwtz1YElECyZVIN8If-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="150" />
+              <mxPoint x="550" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2qPy1PuLci0YALtGw1uu-8" value="number of languages" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2qPy1PuLci0YALtGw1uu-9">
+          <mxGeometry x="0.0066" relative="1" as="geometry">
+            <mxPoint x="650" y="520" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2qPy1PuLci0YALtGw1uu-9" value="hidden_state" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2qPy1PuLci0YALtGw1uu-10" value="number of letters" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="2qPy1PuLci0YALtGw1uu-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="520" as="sourcePoint" />
+            <mxPoint x="355" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2qPy1PuLci0YALtGw1uu-11" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2qPy1PuLci0YALtGw1uu-9" target="2qPy1PuLci0YALtGw1uu-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="630" as="sourcePoint" />
+            <mxPoint x="440" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="380" />
+              <mxPoint x="540" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2qPy1PuLci0YALtGw1uu-12" value="This model takes in characters of a word one by one&lt;div&gt;&lt;div&gt;to predict&amp;nbsp;&lt;/div&gt;&lt;div&gt;the language of the word.&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="570" width="290" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
