@@ -1,3 +1,11 @@
+This folder documents learning examples of neural network ( **NN** ) foundational concepts / algorithms.
+
+Like:
+
+- gradient descent
+- loss function
+- ...
+
 # Commands
 
 1. Prepare virtual environment
