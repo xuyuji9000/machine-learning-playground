@@ -1,0 +1,4 @@
+jupyterlab
+torch
+numpy<2
+matplotlib
