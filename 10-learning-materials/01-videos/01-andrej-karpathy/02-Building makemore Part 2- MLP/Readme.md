@@ -12,4 +12,11 @@ And this video is part of a YouTube [playlist](https://www.youtube.com/playlist?
     python3.12 -m venv venv
     
     source venv/bin/activate
+    pip install -r ./requirements.txt
+    ```
+
+- Start JupyterLab
+
+    ```bash
+    jupyter-lab
     ```
