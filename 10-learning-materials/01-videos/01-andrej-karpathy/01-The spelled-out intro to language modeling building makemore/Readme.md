@@ -8,7 +8,7 @@ To enhance the learning process.
 1. Prepare virtual environment
 
     ``` shell
-    virtualenv -p python3 venv
+    python3.12 -m venv venv
 
     source venv/bin/activate
     ```

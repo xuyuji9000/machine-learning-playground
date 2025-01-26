@@ -1,5 +1,5 @@
-jupyterlab==4.2.3
-torch==2.3.1
-numpy==2.0.0
-matplotlib==3.9.1
+jupyterlab
+torch
+numpy
+matplotlib
 PyQt6==6.7.0
