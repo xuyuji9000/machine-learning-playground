@@ -1,0 +1,4 @@
+jupyterlab
+gymnasium[atari, accept-rom-license]
+ale-py
+autorom[accept-rom-license]
