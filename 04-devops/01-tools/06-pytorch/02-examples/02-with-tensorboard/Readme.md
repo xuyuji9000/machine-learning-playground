@@ -6,6 +6,8 @@ This example is referencing the following notebook
 
 # Commands
 
+## Initial Commands
+
 1. Prepare virtual environment
 
     ``` shell
@@ -29,3 +31,13 @@ This example is referencing the following notebook
     jupyter-lab             \
     --no-browser
     ```
+
+
+## Commands during training
+
+- tensorboard
+
+    ``` shell
+    tensorboard --logdir=runs
+    ```
+
