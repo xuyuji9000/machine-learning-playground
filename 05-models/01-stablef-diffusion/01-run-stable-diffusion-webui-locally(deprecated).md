@@ -14,4 +14,8 @@ virtualenv -p python3.10 venv
 source venv/bin/activate
 
 pip install -r ./requirements.txt
+
+git checkout dev
+
+python3.10 ./launch.py --skip-torch-cuda-test
 ```
