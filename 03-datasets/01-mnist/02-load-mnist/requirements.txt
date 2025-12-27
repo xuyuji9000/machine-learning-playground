@@ -1,2 +1,3 @@
-jupyterlab==4.2.2
-mnist==0.2.2
+jupyterlab
+mnist
+matplotlib
