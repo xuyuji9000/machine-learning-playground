@@ -1,0 +1,4 @@
+jupyterlab
+albumentations
+opencv-python
+matplotlib
