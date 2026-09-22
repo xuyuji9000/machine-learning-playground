@@ -3,3 +3,4 @@ torch
 torchvision
 open-clip-torch
 pillow
+clip-benchmark
