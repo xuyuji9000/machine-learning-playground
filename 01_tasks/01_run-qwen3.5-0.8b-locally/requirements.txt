@@ -1,0 +1,11 @@
+# Qwen3.5-0.8B local inference stack
+# Install: pip install -r requirements.txt
+# (pip needs git available for the transformers @ git+... line)
+
+torch
+torchvision
+accelerate
+pillow
+
+# Qwen3.5 (model_type: qwen3_5) requires the latest transformers from main
+transformers @ git+https://github.com/huggingface/transformers.git@main
