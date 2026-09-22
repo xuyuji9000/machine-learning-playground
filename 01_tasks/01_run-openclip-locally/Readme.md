@@ -42,4 +42,5 @@ clip_benchmark eval             \
 
 - `OPENCLIP_NOTES.md` — what OpenCLIP is, architecture, usage
 - `DATASETS.md` — dataset options (resolutions, sizes, mirrors) for further benchmarking
+- `MODELS.md` — all clip_benchmark/open_clip models + checkpoints (115 architectures, 196 pairs)
 - `run_openclip.py` — zero-shot classification demo (CPU/MPS/CUDA)
