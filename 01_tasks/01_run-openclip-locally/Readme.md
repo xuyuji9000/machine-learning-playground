@@ -23,6 +23,7 @@ python3 run_openclip.py my.jpg     # or classify your own image
 
 DATASET='cifar10'
 DATASET='stl10'
+DATASET='flowers'
 
 clip_benchmark eval             \
 --dataset "${DATASET}"          \

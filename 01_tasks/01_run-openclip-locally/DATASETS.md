@@ -12,7 +12,7 @@ Beyond CIFAR-10 (32×32, 10 classes, 60k images). Sorted by resolution/size.
 | Tiny ImageNet            | 64×64                             | 200           | ~250 MB        | Downscaled ImageNet                                                                |
 | Caltech-101 / 256        | ~300–500 px                       | 101 / 256     | ~130 MB        | Object categories                                                                  |
 | Food-101                 | ~300 px                           | 101           | ~230 MB        | CLIP zero-shot ~90%+ — dramatic demo                                               |
-| Flowers-102 (Oxford)     | ~500 px                           | 102           | ~230 MB        | Fine-grained                                                                       |
+| Flowers-102 (Oxford)     | ~500 px                           | 102           | ~345 MB        | Fine-grained; clip_benchmark name is `flowers`; measured ViT-B/32 zero-shot 71.6%  |
 | Oxford-IIIT Pets         | ~512 px                           | 37            | ~750 MB        | Fine-grained cats/dogs                                                             |
 | CUB-200 (birds)          | ~500 px                           | 200           | ~1 GB          | Very hard, fine-grained                                                            |
 | ImageNet-1k              | ~420–500 px (used at 224×224)     | 1000          | ~150 GB        | The classic; gated on HF, huge download                                            |
@@ -67,6 +67,10 @@ truncated downloads from this network (observed ~60 KB/s, connection drops).
 
 - `datasets/cifar-10-batches-py/` — extracted CIFAR-10 (pickle files, planar RGB)
 - `datasets/cifar-10-python.tar.gz` — official archive (from HF mirror, checksum-verified)
-- `cifar10_pics/*.png` — one upscaled example image per class
-- `cifar10_examples.png` — labeled 10-class grid
-- `results_cpu.json` / `results_mps.json` — CIFAR-10 zero-shot results (acc1 ≈ 0.935)
+- `datasets/stl10_binary/` — extracted STL-10 (raw .bin files, one per split)
+- `datasets/flowers-102/` — Flowers-102 (102flowers.tgz + jpg/, labels in .mat files)
+- `cifar10_pics/*.png`, `stl10_pics/*.png` — one upscaled example image per class
+- `cifar10_examples.png`, `stl10_examples.png` — labeled 10-class grids
+- `results_cpu.json` / `results_mps.json` — CIFAR-10 zero-shot (acc1 ≈ 0.935)
+- `results_stl10.json` — STL-10 zero-shot (acc1 0.966)
+- `results_flowers.json` — Flowers-102 zero-shot (acc1 0.716, acc5 0.876)
