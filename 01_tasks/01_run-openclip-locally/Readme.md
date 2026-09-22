@@ -20,14 +20,19 @@ python3 run_openclip.py my.jpg     # or classify your own image
 #   1. metrics/zeroshot_classification.py L82: numpy>=2 fix (float() on 1-elem array)
 #   2. cli.py run(): use device "mps" on Apple Silicon (upstream only picks cuda/cpu);
 #      MPS gave ~7x speedup vs CPU (~70s vs ~8min), acc within fp16 rounding
-clip_benchmark eval \
---dataset cifar10 \
---dataset_root datasets \
---model ViT-B-32 \
---pretrained laion2b_s34b_b79k \
---task zeroshot_classification \
---batch_size 128 --num_workers 8 \
---output results     # -> results.json  (acc1 ~0.935; ref: OpenCLIP reports ~93.5%)
+
+DATASET='cifar10'
+DATASET='stl10'
+
+clip_benchmark eval             \
+--dataset "${DATASET}"          \
+--dataset_root datasets         \
+--model ViT-B-32                \
+--pretrained laion2b_s34b_b79k  \
+--task zeroshot_classification  \
+--batch_size 128                \
+--num_workers 8                 \
+--output results
 ```
 
 
@@ -35,4 +40,5 @@ clip_benchmark eval \
 # Files
 
 - `OPENCLIP_NOTES.md` — what OpenCLIP is, architecture, usage
+- `DATASETS.md` — dataset options (resolutions, sizes, mirrors) for further benchmarking
 - `run_openclip.py` — zero-shot classification demo (CPU/MPS/CUDA)
