@@ -1,7 +1,7 @@
 import torch.nn.functional as F
 
 
-def train(model, device, train_loader, optimizer, epoch):
+def train_without_monitoring(model, device, train_loader, optimizer, epoch):
     model.train()
     for batch_idx, (data, target) in enumerate(train_loader):
         data, target = data.to(device), target.to(device)
