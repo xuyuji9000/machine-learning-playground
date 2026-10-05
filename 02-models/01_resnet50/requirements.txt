@@ -1,8 +1,10 @@
 jupyterlab
+
 torch
 torchvision
-huggingface_hub
+
 transformers
+
 albumentations
 matplotlib
 timm
