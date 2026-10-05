@@ -1,4 +1,0 @@
-notebook
-torch
-torchvision
-matplotlib
