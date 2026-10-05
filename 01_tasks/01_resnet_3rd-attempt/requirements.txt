@@ -3,3 +3,5 @@ notebook
 numpy
 torch
 torchvision
+
+matplotlib
