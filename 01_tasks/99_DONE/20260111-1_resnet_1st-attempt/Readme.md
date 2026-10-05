@@ -1,4 +1,4 @@
-
+This attempt is based on resnet50 .
 # Commands
 ``` shell
 python3 -m venv venv
