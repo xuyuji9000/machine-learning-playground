@@ -1,0 +1,8 @@
+venv/
+.ipynb_checkpoints/
+__pycache__/
+
+data/
+model/
+
+mlx_trace.gputrace/
