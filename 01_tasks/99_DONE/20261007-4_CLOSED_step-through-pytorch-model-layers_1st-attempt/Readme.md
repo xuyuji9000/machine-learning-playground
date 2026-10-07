@@ -33,3 +33,4 @@ curl -L -o data/MNIST/raw/t10k-labels-idx1-ubyte.gz "$BASE/t10k-labels-idx1-ubyt
 
 <!-- Reference -->
 [1]: https://huggingface.co/yogiman/cnn/blob/main/1st-attempt/simple_cnn_mnist_20261007_112945.safetensors
+[2]: https://github.com/pytorch/pytorch/blob/main/torch/fx/README.md
