@@ -15,7 +15,7 @@ jupyter-lab --no-browser
 LOCAL_PATH=''
 
 REPO_ID='yogiman/cnn'
-PATH_IN_REPO='./1st-attempt/'
+PATH_IN_REPO='1st-attempt/'
 
 hf upload ${REPO_ID}  ${LOCAL_PATH} ${PATH_IN_REPO}
 ```

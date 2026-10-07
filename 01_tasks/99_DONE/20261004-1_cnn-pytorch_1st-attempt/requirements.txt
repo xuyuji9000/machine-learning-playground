@@ -1,6 +1,7 @@
 jupyterlab
+
+numpy
 torch
 torchvision
-numpy
 
-tensorboard
+safetensors
