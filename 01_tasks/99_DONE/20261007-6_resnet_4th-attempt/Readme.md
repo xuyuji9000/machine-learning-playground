@@ -2,6 +2,7 @@ An [article][1] about resnet18.
 
 # Commands
 
+## 1. Setup Environment
 ``` shell
 # Prepare python virtual environment
 # Install dependency
@@ -15,6 +16,11 @@ pip install -r ./requirements.txt
 jupyter-lab --no-browser
 ```
 
+
+
+
+
+## 2. Download dataset
 ``` shell
 # The original toronto university data source was too slow
 # So, downloading it from the hugging face mirror source.
@@ -25,14 +31,19 @@ wget ${DATASET_URL} \
 
 ```
 
+
+
+
+
+## 3. Publish Weights to HuggingFace
 ``` shell
-# Upload model weights to huggingface
-MODEL_PATH='./model/resnet18_cifar10_20261006_184045.pth'
+# Publish model weights to huggingface
+MODEL_PATH='./model/resnet18_cifar10_20261007_205749.safetensors'
 REMOTE_PATH='./4th-attempt/'
 
 hf upload yogiman/resnet ${MODEL_PATH} ${REMOTE_PATH}
-
-
 ```
 
+
+<!-- Reference -->
 [1]: https://www.geeksforgeeks.org/deep-learning/resnet18-from-scratch-using-pytorch/
