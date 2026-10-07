@@ -3,7 +3,7 @@ import torch.nn as nn
 
 class BasicBlock(nn.Module):
     def __init__(self, in_channels, out_channels, stride=1):
-        super(BasicBlock, self).__init__()
+        super().__init__()
         self.conv1 = nn.Conv2d(in_channels, out_channels, kernel_size=3, stride=stride, padding=1, bias=False)
         self.bn1 = nn.BatchNorm2d(out_channels)
         self.relu = nn.ReLU(inplace=True)
@@ -30,7 +30,7 @@ class BasicBlock(nn.Module):
 
 class ResNet18(nn.Module):
     def __init__(self, num_classes=10):
-        super(ResNet18, self).__init__()
+        super().__init__()
         self.in_channels = 64
         self.conv1 = nn.Conv2d(3, 64, kernel_size=3, stride=1, padding=1, bias=False)
         self.bn1 = nn.BatchNorm2d(64)
