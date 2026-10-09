@@ -1,0 +1,7 @@
+notebook
+
+numpy
+torch
+Pillow
+
+open_clip_torch
