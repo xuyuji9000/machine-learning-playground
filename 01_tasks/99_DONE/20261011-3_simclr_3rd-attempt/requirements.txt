@@ -1,0 +1,9 @@
+notebook
+
+numpy
+torch
+torchvision
+safetensors
+
+scikit-image
+matplotlib
