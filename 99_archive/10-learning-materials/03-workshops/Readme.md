@@ -1,1 +1,0 @@
-This folder documents the workshops joined.

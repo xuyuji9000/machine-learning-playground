@@ -1,5 +1,0 @@
-jupyterlab
-torch
-numpy
-matplotlib
-PyQt6==6.7.0

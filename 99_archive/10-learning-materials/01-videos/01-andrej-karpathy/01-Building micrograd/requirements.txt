@@ -1,4 +1,0 @@
-jupyterlab
-micrograd
-numpy
-matplotlib
