@@ -46,3 +46,7 @@ curl -s http://localhost:1234/v1/chat/completions \
 source venv/bin/activate
 python3 get_weather.py
 ```
+
+
+<!-- Reference -->
+[1]: https://developers.openai.com/api/docs/guides/function-calling?api-mode=responses
