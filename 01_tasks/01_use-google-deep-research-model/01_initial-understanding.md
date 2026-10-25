@@ -13,20 +13,24 @@ autonomously conducts multi-step research.
 ## How it works
 
 1. **Plans** — decomposes the prompt into a structured research plan.
-   With *collaborative planning* (`collaborative_planning=True`), the agent
+  With *collaborative planning* (`collaborative_planning=True`), the agent
    returns a proposed plan first, which can be reviewed/edited/approved
    through multi-turn interactions before execution.
 2. **Executes** — iteratively searches the web (or custom sources),
-   browsing and reading hundreds of sources. Takes several minutes.
+  browsing and reading hundreds of sources. Takes several minutes.
 3. **Synthesizes** — produces a long, organized report with inline
-   citations, optionally with charts/visualizations.
+  citations, optionally with charts/visualizations.
+
+
 
 ## Agent versions (Apr 2026)
 
-| Agent ID | Purpose |
-|---|---|
-| `deep-research-preview-04-2026` | Speed/efficiency, good for streaming to a UI |
-| `deep-research-max-preview-04-2026` | Maximum comprehensiveness for deep analysis |
+
+| Agent ID                            | Purpose                                      |
+| ----------------------------------- | -------------------------------------------- |
+| `deep-research-preview-04-2026`     | Speed/efficiency, good for streaming to a UI |
+| `deep-research-max-preview-04-2026` | Maximum comprehensiveness for deep analysis  |
+
 
 Extra capabilities: **MCP server support** (connect external tools),
 **native visualizations**, **document inputs**.
@@ -34,11 +38,13 @@ Extra capabilities: **MCP server support** (connect external tools),
 ## Where it is available
 
 - **Consumer UIs**: Gemini app, NotebookLM, Gemini Enterprise
-  ("Deep Research" button)
+("Deep Research" button)
 - **Gemini API**: exclusively via the **Interactions API**
-  (NOT `generate_content`). Currently in *preview*.
+(NOT `generate_content`). Currently in *preview*.
   - Tasks are long-running → must use background execution
-    (`background=True`) and poll for results or stream updates.
+  (`background=True`) and poll for results or stream updates.
+
+
 
 ## Minimal API usage (Python)
 
@@ -68,6 +74,8 @@ while True:
     time.sleep(10)
 ```
 
+
+
 ### REST equivalent
 
 ```shell
@@ -86,19 +94,14 @@ curl -X POST "https://generativelanguage.googleapis.com/v1beta/interactions" \
 #   -H "x-goog-api-key: $GEMINI_API_KEY"
 ```
 
+
+
 ## References
 
-- Official docs: <https://ai.google.dev/gemini-api/docs/deep-research>
-- Developer guide: <https://aistudio.google.com/learn/deep-research-developer-guide>
+- Official docs: [https://ai.google.dev/gemini-api/docs/deep-research](https://ai.google.dev/gemini-api/docs/deep-research)
+- Developer guide: [https://aistudio.google.com/learn/deep-research-developer-guide](https://aistudio.google.com/learn/deep-research-developer-guide)
 - Announcement (Deep Research / Deep Research Max):
-  <https://blog.google/innovation-and-ai/models-and-research/gemini-models/next-generation-gemini-deep-research/>
-- Consumer product page: <https://gemini.google/us/overview/deep-research/>
+[https://blog.google/innovation-and-ai/models-and-research/gemini-models/next-generation-gemini-deep-research/](https://blog.google/innovation-and-ai/models-and-research/gemini-models/next-generation-gemini-deep-research/)
+- Consumer product page: [https://gemini.google/us/overview/deep-research/](https://gemini.google/us/overview/deep-research/)
 
-## Next steps for this task
 
-- [ ] Get a `GEMINI_API_KEY` from Google AI Studio
-- [ ] Create `requirements.txt` (`google-genai`) and venv
-- [ ] Write a runnable example script / notebook
-      (e.g. `main.py` or `main.ipynb`) that runs a research query,
-      polls until completion, and saves the cited report to a local `.md`
-- [ ] Optionally try collaborative planning and `deep-research-max-preview-04-2026`
