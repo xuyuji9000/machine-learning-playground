@@ -1,0 +1,36 @@
+{
+    "id": "chatcmpl-f3b29cf9-a0b7-44e2-bebd-cc589c2c1f3a",
+    "system_fingerprint": "0.32.2-0.32.4-macOS-27.0.1-arm64-arm-64bit-Mach-O-applegpu_g15s",
+    "object": "chat.completion",
+    "model": "mlx-community/Qwen3.5-9B-4bit",
+    "created": 1792912098,
+    "choices": [
+        {
+            "index": 0,
+            "finish_reason": "tool_calls",
+            "message": {
+                "role": "assistant",
+                "content": "\n\n",
+                "reasoning": "The user is asking about the current weather in Tokyo. I have access to a get_weather function that can get current weather for a city. I need to call this function with \"Tokyo\" as the city parameter.\n",
+                "tool_calls": [
+                    {
+                        "function": {
+                            "name": "get_weather",
+                            "arguments": "{\"city\": \"Tokyo\"}"
+                        },
+                        "type": "function",
+                        "id": "78796851-f803-4220-ab76-dc7982f9e441"
+                    }
+                ]
+            }
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 277,
+        "completion_tokens": 74,
+        "total_tokens": 351,
+        "prompt_tokens_details": {
+            "cached_tokens": 276
+        }
+    }
+}
