@@ -39,3 +39,10 @@ curl -s http://localhost:1234/v1/chat/completions \
   }]
 }' | python3 -m json.tool
 ```
+
+``` shell
+# 3. run get_weather on the client and replay the result
+# server must already be listening on :1234
+source venv/bin/activate
+python3 get_weather.py
+```
