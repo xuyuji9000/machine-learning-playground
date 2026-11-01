@@ -1,0 +1,13 @@
+services:
+  pi:
+    build: .
+    container_name: pi-coding-agent
+    stdin_open: true
+    tty: true
+    environment:
+      - DEEPSEEK_API_KEY=${DEEPSEEK_API_KEY}
+    # Default model, so the container does not need a settings.json to pick one.
+    command: ["--model", "deepseek/deepseek-flash"]
+    volumes:
+      - .:/project
+    working_dir: /project
