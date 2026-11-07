@@ -32,3 +32,11 @@ hf download Qwen/Qwen2.5-3B-Instruct
 hf cache list
 hf cache rm model/Qwen/Qwen2.5-3B-Instruct
 ```
+
+
+``` shell
+python3 -m venv venv
+source ./venv/bin/activate
+
+pip3 install -r ./requirements.txt
+```
