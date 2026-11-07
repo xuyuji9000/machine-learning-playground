@@ -1,0 +1,7 @@
+bitsandbytes
+peft
+trl
+tensorboardX
+wandb
+torchvision
+transformers
