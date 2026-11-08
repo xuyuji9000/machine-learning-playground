@@ -1,0 +1,5 @@
+notebook
+
+transformers
+torch
+accelerate
