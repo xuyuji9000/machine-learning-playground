@@ -20,3 +20,4 @@ jupyter-lab --no-browser
 <!-- Reference -->
 
 [1]: https://huggingface.co/Qwen/Qwen2.5-3B-Instruct
+[2]: https://qwen.readthedocs.io/en/latest/getting_started/concepts.html
