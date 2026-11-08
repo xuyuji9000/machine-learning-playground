@@ -16,3 +16,4 @@ jupyter-lab --no-browser
 <!-- Reference -->
 
 [1]: https://qwen.readthedocs.io/en/v1.5/inference/chat.html
+[2]: https://qwen.readthedocs.io/en/latest/getting_started/concepts.html
